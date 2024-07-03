@@ -1,0 +1,335 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rive Animation on Submit</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@rive-app/canvas@latest/rive.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+ 
+<div class="content-container">
+<!--header section-->
+<div class="main-header">
+<!--Logo holder-->
+<div class="logo-holder">
+<img src="Images/logo with text (blue).png" width="114px" width="42px"   alt="pulse-logo">
+</div>
+<!--Logo holder-->
+
+<!--Navigation links-->
+<nav class="navigations-links">
+    <ul>
+        <li><a href="#section1">Why Pulse</a></li>
+        <li><a href="#section3">How it works</a></li>
+        <li><a href="#section2">Pricing</a></li>
+        <li><a href="#section4">Team</a></li>
+        <li><a href="#section5">Contact</a></li>
+        <li><a href="#section6">FAQs</a></li>
+    </ul>
+</nav>
+<!--Navigation links-->
+<!--Request a demo-->
+<button id="request-demo" onclick="openHubSpotForm1()"  class="request-demo">
+    Request a demo
+</button>
+<!--Request a demo-->
+</div>
+<!--header section-->
+
+ <!-- Hamburger icon -->
+ <div class="hamburger" onclick="toggleMenu()">
+    <img src="Images/hamburger.svg" alt="">
+</div>
+<!-- Hamburger icon -->
+
+<!-- Menu overlay -->
+<div class="menu-overlay" id="menuOverlay">
+<div class="menu-content">
+    <span class="close-btn" onclick="toggleMenu()"><img src="Images/Close.svg" alt=""></span>
+    <nav class="overlay-nav">
+        <ul>
+            <li><a href="#section1" onclick="hideMenu()">Why Pulse</a></li>
+            <li><a href="#section3" onclick="hideMenu()">How it works</a></li>
+            <li><a href="#section2" onclick="hideMenu()">Pricing</a></li>
+            <li><a href="#section4" onclick="hideMenu()">Team</a></li>
+            <li><a href="#section5" onclick="hideMenu()">Contact</a></li>
+            <li><a href="#section6" onclick="hideMenu()">FAQs</a></li>
+        </ul>
+    </nav>
+</div>
+</div>
+<!-- Menu overlay -->
+
+<!--Intro section-->
+<div class="intro-content">
+    <h1>Revolutionize Your SaaS Product Management <span>with AI</span></h1>
+    <span>Supercharge Your Product Strategy with our Generative AI-Powered <br> Decision Intelligence Platform, Pulse</span>
+    <button id="request-demo" onclick="openHubSpotForm1()"  class="request-demo">
+        Request a demo
+    </button>
+    <iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/hQPhSlDLjzM?si=l0ipcwiMz6VAkGJF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+</div>
+<!--Intro section-->
+
+<!--how it works section-->
+<div id="section3"  class="how-it-works">
+    <h1>How Pulse works</h1>
+    <div class="features">
+
+        <!--features block 1-->
+        <div class="feature-block">
+                <img class="feature-image" src="Images/top customers.svg" alt="">
+            <div class="feature-content">
+                <h3>Understanding Customer Needs</h3>
+                <span>Pulse analyzes customer data and market trends to deliver actionable insights</span>
+            </div>
+        </div>
+         <!--features block 1-->
+        <!--features block 2-->
+        <div class="feature-block">
+            <div class="feature-content">
+                <h3>What-If Playground</h3>
+                <span>Experiment in real-time with dynamic scenarios to instantly assess strategies and potential outcomes</span>
+            </div>
+                <img class="feature-image"  src="Images/try and experiment.svg" alt="">
+        </div>
+        <!--features block 2-->
+        <!--features block 3-->
+         <div class="feature-block">
+                <img class="feature-image"  src="Images/ROI.svg" alt="">
+            <div class="feature-content">
+                <h3>Return on Investment</h3>
+                <span>Monitor the impact of decisions against the associated KPIs and maximize the ROI</span>
+            </div>
+        </div>
+        <!--features block 4-->
+        <div class="feature-block">
+            <div class="feature-content">
+                <h3>Data Driven Decisions</h3>
+                <span>With Pulse, every decision is backed by data. Track the impact of your features on revenue and make informed decisions</span>
+            </div>
+                <img class="feature-image" src="Images/DD.svg" alt="">
+        </div>
+        <!--features block 4-->
+
+    </div>
+</div>
+<!--how it works section-->
+
+<!--Why Pulse section-->
+<div id="section1" class="why-pulse">
+    <h1>Why Pulse?</h1>
+
+<div class="highlight-container">
+
+    <div class="highlight">    
+        <img src="Images/Arrow.svg" alt="">
+        <div class="highlight-text">
+            <h3>Focus on What Matters Most</h3>
+            <span>Customer feedback and market trends at the forefront of the decision making process</span>
+        </div>
+        </div>
+   
+    <div class="highlight">
+        <img src="Images/Exp.svg" alt="">
+        <div class="highlight-text">
+            <h3>Real-Time Experimentation</h3>
+            <span>Experiment with multiple scenarios to ensure proactive decision-making aligned with real-world market dynamics</span>
+        </div>
+    </div>
+
+    <div class="highlight">
+        <img src="Images/Max ROI.svg" alt="">
+        <div class="highlight-text">
+            <h3>Maximize ROI</h3>
+            <span>Optimize spending, boost productivity, and achieve predictable NRR and substantial ARR growth</span>
+        </div>
+    </div>
+
+    <div class="highlight">
+        <img src="Images/DI.svg" alt="">
+        <div class="highlight-text">
+            <h3>Decision Intelligence</h3>
+            <span>Empowering decision-makers with Actionable Intelligence</span>
+        </div>
+    </div>
+</div>
+</div>
+<!--Why Pulse section-->
+
+<!--Integrations section-->
+<div class="integration">
+    <h1>Our integrations</h1>
+
+    <div class="highlight-container">
+
+        <div class="integration-item">    
+            <img src="Images/Integrations/Slack.svg" alt="">
+            <div class="highlight-text">
+                <h3>Slack</h3>
+                <span>Automatically listen to and extract insights from chosen Slack channels. Receive proactive alerts and notifications directly in your workspace</span>
+            </div>
+            </div>
+       
+        <div class="integration-item">
+            <img src="Images/Integrations/Teams.svg" alt="">
+            <div class="highlight-text">
+                <h3>MS Teams</h3>
+                <span>Monitor chosen channels in MS Teams to automatically extract valuable insights. Stay updated with proactive alerts and notifications</span>
+            </div>
+        </div>
+    
+        <div class="integration-item">
+            <img src="Images/Integrations/Zendesk.svg" alt="">
+            <div class="highlight-text">
+                <h3>Zendesk</h3>
+                <span>Automatically analyze customer tickets in Zendesk to extract valuable information and understand customer needs better</span>
+            </div>
+        </div>
+    
+        <div class="integration-item">
+            <img src="Images/Integrations/Salesforce.svg" alt="">
+            <div class="highlight-text">
+                <h3>Salesforce</h3>
+                <span>Sync account and opportunity data from Salesforce to provide comprehensive revenue and customer intelligence</span>
+            </div>
+        </div>
+
+        <div class="integration-item">
+            <img src="Images/Integrations/Hubspot.svg" alt="">
+            <div class="highlight-text">
+                <h3>Hubspot</h3>
+                <span>Integrate with Hubspot to sync account and delas data, offering a deeper understanding of revenue and customer insights</span>
+            </div>
+        </div>
+
+        <div class="integration-item">
+            <img src="Images/Integrations/Jira.svg" alt="">
+            <div class="highlight-text">
+                <h3>Jira</h3>
+                <span>From the Produx AI web app, push features directly to Jira, ensuring efficient project management and tracking</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--Integrations section-->
+
+<!--Pricing section-->
+<div id="section2" class="pricing">
+    <h1>Pricing</h1>
+    <span>Our pricing model considers a few parameters specific to each client. 
+        For an accurate quote, <br> write to us at <b>contact@pulsegen.io</b>, and we will get in touch with you shortly</span>
+        <button id="get-in-touch"  onclick="openHubSpotForm2()" class="get-in-touch">
+            Get in Touch
+        </button>
+</div>
+<!--Pricing section-->
+
+<!--Team section-->
+<div  id="section4" class="card-section">
+    <h1>Team</h1>
+    <div class="card-container">
+
+        <div class="card">
+            <img src="Images/HC.svg" alt="">
+            <h3>Haren Chelle</h3>
+            <h4>Chief Executive Officer</h4>
+            <span>IIT Patna • IIM Bangalore <br> Ex-yellow.ai, Ex-Kore.ai</span>
+            <div class="social-links">
+                <a href=""><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="Images/sprite.svg#hugeicons--new-twitter"></use></svg></a>
+                <a href=""><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="Images/sprite.svg#mdi--linkedin"></use></svg></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Images/AT.svg" alt="">
+            <h3>Alok Thatikunti</h3>
+            <h4>Co-Founder</h4>
+            <span>IIIT Hyderabad <br> Ex-Paypal, Ex-Confluent</span>
+            <div class="social-links">
+                <a href=""><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="Images/sprite.svg#hugeicons--new-twitter"></use></svg></a>
+                <a href=""><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="Images/sprite.svg#mdi--linkedin"></use></svg></a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="Images/VS.svg" alt="">
+            <h3>Vatsal Singhal</h3>
+            <h4>Co-Founder</h4>
+            <span>IIT Patna<br> Ex-Goldman Sachs, Ex-Morphle labs</span>
+            <div class="social-links">
+                <a href=""><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="Images/sprite.svg#hugeicons--new-twitter"></use></svg></a>
+                <a href=""><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="Images/sprite.svg#mdi--linkedin"></use></svg></a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--Team section-->
+
+<!--FAQ section-->
+<div  id="section6"  class="accordion">
+    <h1>Have Questions?</h1>
+    <div class="accordion-item">
+        <div class="accordion-header">What is your return policy?</div>
+        <div class="accordion-content">
+            <p>Our return policy allows returns within 30 days of purchase. Please ensure the items are in original condition.</p>
+        </div>
+        <img class="accordion-icon"  src="Images/dropdown.svg" alt="" >
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-header">How do I track my order?</div>
+        <div class="accordion-content">
+            <p>You can track your order using the tracking number provided in your order confirmation email.</p>
+        </div>
+        <img class="accordion-icon"  src="Images/dropdown.svg" alt="" class="rotate">
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-header">Do you offer international shipping?</div>
+        <div class="accordion-content">
+            <p>Yes, we offer international shipping to most countries. Shipping fees and delivery times may vary.</p>
+        </div>
+        <img class="accordion-icon"  src="Images/dropdown.svg" alt="">
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-header">How can I contact customer support?</div>
+        <div class="accordion-content">
+            <p>You can contact our customer support team via email at support@example.com or call us at 123-456-7890.</p>
+        </div>
+        <img class="accordion-icon"  src="Images/dropdown.svg" alt="">
+    </div>
+</div>
+<!--FAQ section-->
+
+</div>
+
+<!--Footer-->
+<div class="footer">
+    <div class="icon-and-address">
+        <div class="logo-holder">
+            <img src="Images/logo with text (blue).png" width="114px" width="42px"   alt="pulse-logo">
+            </div>
+            <span>Hyderabad, India <br>
+            <u><a href="">Terms & Conditions</a></u></span>
+    </div>
+    <div class="social-media">
+        <a href=""><svg class="icon" width="24px" height="24px">
+            <use xlink:href="Images/sprite.svg#hugeicons--new-twitter"></use></svg></a>
+        <a href=""><svg class="icon" width="24px" height="24px">
+            <use xlink:href="Images/sprite.svg#mdi--linkedin"></use></svg></a>
+    </div>
+    <button id="get-in-touch"  onclick="openHubSpotForm2()" class="get-in-touch">
+        Get in Touch
+    </button>
+</div>
+<!--Footer-->
