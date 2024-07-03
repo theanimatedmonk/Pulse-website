@@ -546,6 +546,7 @@ width: 100%;
 .footer{
     flex-direction: column;
     justify-content: space-between;
+    gap: 12px;
     align-items: center;
     text-align: center;
 }
