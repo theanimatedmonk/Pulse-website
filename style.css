@@ -546,6 +546,7 @@ width: 100%;
 .footer{
     flex-direction: column;
     justify-content: space-between;
+    padding: 20px 56px;
     align-items: center;
     text-align: center;
     gap: 32px;
