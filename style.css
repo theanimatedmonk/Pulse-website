@@ -498,7 +498,9 @@ width: 100%;
         flex-direction: column;
         gap: 16px;
         text-align:start;
+        align-items: flex-start;
     }
+    
 
     /* Adjust padding and margins for better spacing */
     .content-container {
