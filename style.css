@@ -477,11 +477,7 @@ width: 100%;
 
 @media (max-width: 768px) {
 
-     /* Canvas element adjustments */
- #pulse-text {
-    width: 100%;
-    height: auto;
-}
+
 
     /* Features section */
     .highlight-container {
@@ -562,6 +558,12 @@ width: 100%;
     align-items: center;
     text-align: center;
     gap: 32px;
+}
+
+         /* Canvas element adjustments */
+ #pulse-text {
+    width: 100%;
+    height: auto;
 }
 
 }
