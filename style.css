@@ -458,6 +458,17 @@ width: 100%;
     color: #333;
 }
 
+.icon-footer { 
+    width: 24px; 
+  height: 24px;
+  margin: .5em; 
+  color: #666;
+  }
+  
+  .icon-footer:hover{
+    color: rgb(34, 89, 255);
+  }
+
 /*Footer section*/
 
 @media (max-width: 768px) {
