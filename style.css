@@ -106,7 +106,7 @@ body {
 }
 
 #pulse-text{
-    width:780px ; 
+    width: 780px ; 
     height: 136px;
 }
 .intro-content h1{
@@ -560,7 +560,7 @@ width: 100%;
     gap: 32px;
 }
 
-         /* Canvas element adjustments */
+/* Canvas element adjustments */
  #pulse-text {
     width: 100%;
     height: auto;
