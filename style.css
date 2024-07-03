@@ -103,6 +103,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 12px;
+    margin-bottom: 40px;
 }
 
 #pulse-text{
@@ -146,6 +147,7 @@ body {
     border-radius: 12px;
     background: linear-gradient(165deg, #FFF 0.88%, #EAF2FF 38.04%, #FFF 94.85%);
     border: solid 1px #EBE7FF;
+    margin-bottom: 40px;
 }
 
 .how-it-works > h1{
@@ -205,6 +207,7 @@ body {
 
 .why-pulse{
     width: 100%;
+    margin-bottom: 40px;
 }
 .why-pulse > h1{
     text-align: center;
@@ -274,6 +277,7 @@ width: 100%;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    margin-bottom: 40px;
 }
 
 .pricing > h1{
@@ -389,6 +393,7 @@ width: 100%;
     border-radius: 8px;
     overflow: hidden;
     gap: 12px;
+    margin-bottom: 40px;
     
 }
 .accordion > h1{
