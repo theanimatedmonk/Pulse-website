@@ -104,6 +104,11 @@ body {
     align-items: center;
     gap: 12px;
 }
+
+#pulse-text{
+    width:980px ; 
+    height: 136px;
+}
 .intro-content h1{
   text-align: center;
   line-height: 120%;
@@ -471,6 +476,12 @@ width: 100%;
 /*Footer section*/
 
 @media (max-width: 768px) {
+
+     /* Canvas element adjustments */
+ #pulse-text {
+    width: 100%;
+    height: auto;
+}
 
     /* Features section */
     .highlight-container {
