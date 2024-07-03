@@ -459,14 +459,12 @@ width: 100%;
 }
 
 .icon-footer { 
-    width: 24px; 
-  height: 24px;
   margin: .5em; 
-  color: #666;
+  color: #333;
   }
   
   .icon-footer:hover{
-    color: rgb(34, 89, 255);
+    color: #005eff;
   }
 
 /*Footer section*/
