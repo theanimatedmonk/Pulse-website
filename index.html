@@ -66,7 +66,22 @@
 
 <!--Intro section-->
 <div class="intro-content">
-    <h1>Revolutionize Your SaaS Product Management <span>with AI</span></h1>
+
+  <div class="intro-content">
+    <canvas id="pulse-text" width="1960" height="272"></canvas>
+    <script> r = new rive.Rive({
+        src: "pulse-text.riv",
+        canvas: document.getElementById("pulse-text"),
+        artboard: "text effect pulse",
+        animations: ("001"),
+        autoplay: true,
+        onLoad: () => {
+            // Animation is loaded
+        },
+    });
+</script>
+    
+    <!--<h1>Revolutionize Your SaaS Product Management <span>with AI</span></h1>-->
     <span>Supercharge Your Product Strategy with our Generative AI-Powered <br> Decision Intelligence Platform, Pulse</span>
     <button id="request-demo" onclick="openHubSpotForm1()"  class="request-demo">
         Request a demo
