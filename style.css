@@ -586,7 +586,7 @@ width: 100%;
     cursor: pointer;
     background: rgb(255, 255, 255);
     border: solid 1px #FFFFFF;
-    border-radius: 50px;
+    border-radius: 8px;
 
     position: fixed;
     z-index: 1000;
@@ -625,7 +625,7 @@ width: 100%;
 .close-btn {
     width: 40px;
     height: 40px;
-    border-radius: 50px;
+    border-radius: 8px;
     background: #ffffff;
     cursor: pointer;
     align-items: center;
