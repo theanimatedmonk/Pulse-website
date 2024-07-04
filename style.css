@@ -119,9 +119,9 @@ body {
   margin: 0px;
   font-size: 56px;
 }
-.intro-content >  h1 > span{
+/*.intro-content >  h1 > span{
     color:#005eff;
-  }
+  }*/
 
   .intro-content > span{
     color: #333;
@@ -129,7 +129,7 @@ body {
     line-height: 150%;
     font-weight: 400;
     font-size: 16px;
-    margin: 8px 0px;
+    margin: 0px 0px 16px 0px;
   }
 
   .youtube-video{
