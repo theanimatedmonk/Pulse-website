@@ -21,16 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-//Request a demo form
+//Request a demo form & contact form
 function openHubSpotForm1() {
-    var hubSpotFormUrl = 'https://rive.app/'; // Replace with your actual HubSpot form URL
-    window.open(hubSpotFormUrl, '_blank');
-}
-
-//Get in touch form
-function openHubSpotForm2() {
-    var hubSpotFormUrl = 'https://www.neo.space/'; // Replace with your actual HubSpot form URL
-    window.open(hubSpotFormUrl, '_blank');
+    var contactElement = document.getElementById('contact');
+    if (contactElement) {
+        contactElement.scrollIntoView({ behavior: 'smooth' });
+    }
 }
 
 
