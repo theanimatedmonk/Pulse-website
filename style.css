@@ -458,6 +458,11 @@ width: 100%;
 
 
 /*contact us section*/
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
 .contact > h1{
     text-align: center;
     line-height: 120%;
