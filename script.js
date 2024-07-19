@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //Request a demo form & contact form
 function openHubSpotForm1() {
-    var contactElement = document.getElementById('contact');
+    var contactElement = document.getElementById('Contact');
     if (contactElement) {
         contactElement.scrollIntoView({ behavior: 'smooth' });
     }
