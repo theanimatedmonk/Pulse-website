@@ -141,6 +141,13 @@ body {
 
 /*Intro scetion*/
 
+/*pyramid*/
+.pyramid-image{
+    width: 900px;
+    height: auto;
+}
+/*pyramid*/
+
 /*How it works section*/
 
 .how-it-works{
@@ -502,7 +509,13 @@ width: 100%;
     .highlight-container {
         grid-template-columns: 1fr;
     }
-
+    
+    .pyramid-image{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    
     /* Team section */
     .card-container {
         grid-template-columns: 1fr;
