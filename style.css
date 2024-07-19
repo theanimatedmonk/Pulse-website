@@ -450,6 +450,16 @@ width: 100%;
 /*FAQ section*/
 
 
+/*contact us section*/
+.contact > h1{
+    text-align: center;
+    line-height: 120%;
+    margin-bottom: 40px;
+    font-size: 48px; 
+}
+/*contact us section*/
+
+
 /*Footer section*/
 .footer{
     background: #e3ecff;
