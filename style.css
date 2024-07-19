@@ -582,7 +582,7 @@ width: 100%;
     .integration > h1,
     .pricing > h1,
     .card-section > h1,
-    .accordion > h1
+    .accordion > h1,
     .contact > h1{
         font-size: 32px;
         margin-bottom: 20px;
