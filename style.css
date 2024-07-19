@@ -559,7 +559,8 @@ width: 100%;
     .integration > h1,
     .pricing > h1,
     .card-section > h1,
-    .accordion > h1 {
+    .accordion > h1
+    .content > h1{
         font-size: 32px;
         margin-bottom: 20px;
     }
@@ -580,6 +581,11 @@ width: 100%;
         width: 100%;
         height: auto;
         max-width: 100%;
+}
+    .contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
   /* Feature image adjustments */
   .feature-image {
