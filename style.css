@@ -99,6 +99,22 @@ body {
 }
 /*Header section*/
 
+
+/*pyramid*/
+.pyramid{
+    display: flex;
+    flex-direction: column;
+}
+
+.pyramid > h1{
+    text-align: center;
+    line-height: 120%;
+    margin-bottom: 64px;
+    margin-top: 96px;
+    font-size: 48px;
+}
+/*pyramid*/
+
 /*Intro section*/
 .intro-content{
     width: 100%;
