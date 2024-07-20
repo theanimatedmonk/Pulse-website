@@ -11,6 +11,40 @@ body {
   html {
     scroll-behavior: smooth;
 }
+/*privacy policy*/
+.privacy-policy{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    margin:100px 300px;
+    line-height: 150%;
+  }
+
+  .privacy-policy h1{
+    font-size: 56px;
+  }
+  .privacy-policy h2{
+    font-size: 36px;
+  }
+  .privacy-policy h3{
+    font-size: 24px;
+  }
+
+  .privacy-policy p{
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+  }
+
+  .privacy-policy a{
+    font-size: 16px;
+    color: #367fff;
+    font-weight: 400;
+  }
+/*privacy policy*/
 
   .content-container {
     display: flex;
@@ -545,7 +579,25 @@ width: 100%;
 /*Footer section*/
 
 @media (max-width: 768px) {
-
+.privacy-policy{
+        margin:20px 20px;
+    }
+    .privacy-policy h1{
+        font-size: 32px;
+        line-height: 120%;
+    }
+    .privacy-policy h2{
+        font-size: 20px;
+        line-height: 120%;
+    }
+    .privacy-policy h3{
+        line-height: 120%;
+        font-size: 16px;
+    }
+    .privacy-policy p{
+        line-height: 150%;
+        font-size: 16px;
+    }
 
 
     /* Features section */
