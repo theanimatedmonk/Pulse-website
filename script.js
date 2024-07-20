@@ -19,6 +19,61 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    const r = new rive.Rive({
+        src: "pulse-text.riv",
+        canvas: document.getElementById("pulse"),
+        artboard: "text effect pulse",
+        animations: ("001"),
+        autoplay: true,
+        onLoad: () => {
+            r.resizeDrawingSurfaceToCanvas();
+          },
+    });
+
+    const b = new rive.Rive({
+        src: "why-pulse.riv",
+        canvas: document.getElementById("customer"),
+        artboard: "Customer feedback",
+        animations: ("Customer feedback"),
+        autoplay: true,
+        onLoad: () => {
+            r.resizeDrawingSurfaceToCanvas();
+          },
+    });
+
+    const c = new rive.Rive({
+        src: "why-pulse.riv",
+        canvas: document.getElementById("experiment"),
+        artboard: "Experiment",
+        animations: ("Experiment"),
+        autoplay: true,
+        onLoad: () => {
+            r.resizeDrawingSurfaceToCanvas();
+          },
+    });
+
+    const d = new rive.Rive({
+        src: "why-pulse.riv",
+        canvas: document.getElementById("return-of-investment"),
+        artboard: "ROI",
+        animations: ("ROI"),
+        autoplay: true,
+        onLoad: () => {
+            r.resizeDrawingSurfaceToCanvas();
+          },
+    });
+
+    const e = new rive.Rive({
+        src: "why-pulse.riv",
+        canvas: document.getElementById("decision-intelligence"),
+        artboard: "DI",
+        animations: ("Decision intelligence"),
+        autoplay: true,
+        onLoad: () => {
+            r.resizeDrawingSurfaceToCanvas();
+          },
+    });
 });
 
 //Request a demo form & contact form
