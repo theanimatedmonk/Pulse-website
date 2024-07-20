@@ -25,18 +25,22 @@ body {
 
   .privacy-policy h1{
     font-size: 56px;
+      line-height: 120%;
   }
   .privacy-policy h2{
     font-size: 36px;
+      line-height: 120%;
   }
   .privacy-policy h3{
     font-size: 24px;
+      line-height: 120%;
   }
 
   .privacy-policy p{
     font-size: 16px;
     color: #333;
     font-weight: 400;
+      line-height: 150%;
   }
 
   .privacy-policy a{
