@@ -113,6 +113,10 @@ body {
     margin-top: 96px;
     font-size: 48px;
 }
+.pyramid-image{
+    width: 900px;
+    height: auto;
+}
 /*pyramid*/
 
 /*Intro section*/
@@ -157,12 +161,7 @@ body {
 
 /*Intro scetion*/
 
-/*pyramid*/
-.pyramid-image{
-    width: 900px;
-    height: auto;
-}
-/*pyramid*/
+
 
 /*How it works section*/
 
