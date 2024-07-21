@@ -71,6 +71,18 @@
 <!--Intro section-->
   <div class="intro-content">
     <canvas id="pulse-text" width="780" height="136"></canvas>
+
+     <script>const r = new rive.Rive({
+        src: "Pulse-text.riv",
+        canvas: document.getElementById("pulse"),
+        artboard: "text effect pulse",
+        animations: ("001"),
+        autoplay: true,
+        onLoad: () => {
+            r.resizeDrawingSurfaceToCanvas();
+          },
+    });
+       </script>
  
     
     <!--<h1>Revolutionize Your SaaS Product Management <span>with AI</span></h1>-->
