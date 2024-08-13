@@ -1,0 +1,482 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulse | Empowering Product Teams To Make Smart Decisions With Generative AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg">
+  <script src="https://cdn.jsdelivr.net/npm/@rive-app/canvas@latest/rive.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="pulse" style="position: absolute; top: 0;"></div>
+ 
+<div class="content-container">
+<!--header section-->
+<div class="main-header">
+<!--Logo holder-->
+<div class="logo-holder">
+    <a href="#pulse">
+<img src="logo with text (blue).png" width="114px" width="42px"   alt="pulse-logo">
+</a>
+</div>
+<!--Logo holder-->
+
+<!--Navigation links-->
+<nav class="navigations-links">
+    <ul>
+        <li><a href="#How-it-works">How It Works?</a></li>
+        <li><a href="#Why-Pulse">Why Pulse?</a></li>
+        <li><a href="#Pricing">Pricing</a></li>
+        <li><a href="#Team">Team</a></li>
+        <li><a href="#FAQs">FAQs</a></li>
+        <li><a href="#contact-form">Contact</a></li>
+    </ul>
+</nav>
+<!--Navigation links-->
+<!--Request a demo-->
+<button onclick="openHubSpotForm1()"  class="request-demo">
+    Request a Demo
+</button>
+<!--Request a demo-->
+</div>
+<!--header section-->
+
+ <!-- Hamburger icon -->
+ <div class="hamburger" onclick="toggleMenu()">
+    <img src="hamburger.svg" alt="">
+</div>
+<!-- Hamburger icon -->
+
+<!-- Menu overlay -->
+<div class="menu-overlay" id="menuOverlay">
+<div class="menu-content">
+    <span class="close-btn" onclick="toggleMenu()"><img src="Close.svg" alt=""></span>
+    <nav class="overlay-nav">
+        <ul>
+            <li><a href="#How-it-works" onclick="hideMenu()">How It Works?</a></li>
+            <li><a href="#Why-Pulse" onclick="hideMenu()">Why Pulse?</a></li>
+            <li><a href="#Pricing" onclick="hideMenu()">Pricing</a></li>
+            <li><a href="#Team" onclick="hideMenu()">Team</a></li>
+            <li><a href="#FAQs" onclick="hideMenu()">FAQs</a></li>
+            <li><a href="#contact-form" onclick="hideMenu()">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+</div>
+<!-- Menu overlay -->
+
+<!--Intro section-->
+  <div class="intro-content">
+    <canvas id="pulse-text" width="780" height="136"></canvas>
+
+     <script>const r = new rive.Rive({
+        src: "Pulse-text.riv",
+        canvas: document.getElementById("pulse-text"),
+        artboard: "text effect pulse",
+        animations: ("001"),
+        autoplay: true,
+        onLoad: () => {
+            r.resizeDrawingSurfaceToCanvas();
+          },
+    });
+       </script>
+ 
+    
+    <!--<h1>Revolutionize Your SaaS Product Management <span>with AI</span></h1>-->
+    <span>Supercharge Your Product Strategy with Our Generative AI-Powered <br> Decision Intelligence Platform</span>
+    <button onclick="openHubSpotForm1()"  class="request-demo">
+        Request a Demo
+    </button>
+    <iframe class="youtube-video" src="https://www.youtube.com/embed/f7wX-x1Py-o?si=SCsTW2fYRERU7rW-&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<!--Intro section-->
+
+  <!--Pyramid-->
+  <div class="pyramid">
+    <h1>The “Product Discovery” Pyramid</h1>
+    <img src="Pyramid.svg" class="pyramid-image">
+</div>
+  <!--Pyramid-->
+
+<!--how it works section-->
+<div id="How-it-works"  class="how-it-works">
+    <h1>How Pulse Works?</h1>
+    <div class="features">
+
+        <!--features block 1-->
+        <div class="feature-block">
+                <img class="feature-image" src="Customer obsession.svg" alt="Customer obsession">
+            <div class="feature-content">
+                <h3>Understanding Customer Needs</h3>
+                <span>Analyze customer data and market trends to deliver actionable product insights</span>
+            </div>
+        </div>
+         <!--features block 1-->
+        <!--features block 2-->
+        <div class="feature-block">
+            <div class="feature-content">
+                <h3>What-If Playground</h3>
+                <span>Experiment in real-time with dynamic scenarios to instantly assess product strategies and potential outcomes</span>
+            </div>
+                <img class="feature-image" src="Playground.svg" alt="Playground">
+        </div>
+        <!--features block 2-->
+        <!--features block 3-->
+         <div class="feature-block">
+             <img class="feature-image" src="Return on investment.svg" alt="Return on investment">
+            <div class="feature-content">
+                <h3>Return on Investment</h3>
+                <span>Monitor the impact of decisions against associated product management KPIs to maximize ROI</span>
+            </div>
+        </div>
+        <!--features block 4-->
+        <div class="feature-block">
+            <div class="feature-content">
+                <h3>Data Driven Decisions</h3>
+                <span>Ensure every decision is data-backed, tracking feature impacts on revenue for informed decision-making</span>
+            </div>
+                <img class="feature-image" src="Data driven.svg" alt="Data driven">
+
+        </div>
+        <!--features block 4-->
+
+    </div>
+</div>
+<!--how it works section-->
+
+<!--Why Pulse section-->
+<div id="Why-Pulse" class="why-pulse">
+    <h1>Why Pulse?</h1>
+
+<div class="highlight-container">
+
+    <div class="highlight">    
+        <canvas id="customer" width="160px" height="160px" style="width: 80px; height: 80px;"></canvas>
+        <div class="highlight-text">
+            <h3>Focus on What Matters Most</h3>
+            <span>Customer feedback and market trends at the forefront of the decision-making process</span>
+        </div>
+        </div>
+   
+    <div class="highlight">
+        <canvas id="experiment" width="160px" height="160px" style="width: 80px; height: 80px;"></canvas>
+        <div class="highlight-text">
+            <h3>Real-Time Experimentation</h3>
+            <span>Experiment with multiple scenarios to ensure proactive decision-making that aligns with real-world market dynamics</span>
+        </div>
+    </div>
+
+    <div class="highlight">
+        <canvas id="return-of-investment" width="160px" height="160px" style="width: 80px; height: 80px;"></canvas>
+        <div class="highlight-text">
+            <h3>Maximize ROI</h3>
+            <span>Optimize spending, boost productivity, and achieve predictable NRR and substantial ARR growth</span>
+        </div>
+    </div>
+
+    <div class="highlight">
+        <canvas id="decision-intelligence" width="160px" height="160px" style="width: 80px; height: 80px;"></canvas>
+        <div class="highlight-text">
+            <h3>Decision Intelligence</h3>
+            <span>Empowering decision makers with Actionable Intelligence</span>
+        </div>
+    </div>
+</div>
+</div>
+<!--Why Pulse section-->
+
+<!--Integrations section-->
+<div class="integration">
+    <h1>Our Integrations</h1>
+
+    <div class="highlight-container">
+
+        <div class="integration-item">    
+            <svg width="48px" height="48px">
+              <use xlink:href="sprite-integrations.svg#Slack"></use>
+            </svg>
+            <div class="highlight-text">
+                <h3>Slack</h3>
+                <span>Automatically monitor and extract insights from selected Slack channels. Receive proactive alerts and notifications directly within your workspace</span>
+            </div>
+            </div>
+       
+        <div class="integration-item">
+             <img src="Productboard.svg" width="48px" height="48px">
+            <div class="highlight-text">
+                <h3>Productboard</h3>
+                <span>Seamlessly integrate with Productboard to capture customer feedback and prioritize features. Ensure your product roadmap aligns with customer needs and business goals</span>
+            </div>
+        </div>
+    
+        <div class="integration-item">
+            <svg width="48px" height="48px">
+              <use xlink:href="sprite-integrations.svg#Zendesk"></use>
+            </svg>
+            <div class="highlight-text">
+                <h3>Zendesk</h3>
+                <span>Automatically analyze Zendesk customer tickets to extract valuable insights and gain a deeper understanding of customer needs</span>
+            </div>
+        </div>
+    
+        <div class="integration-item">
+            <svg width="48px" height="48px">
+              <use xlink:href="sprite-integrations.svg#Salesforce"></use>
+            </svg>
+            <div class="highlight-text">
+                <h3>Salesforce</h3>
+                <span>Synchronize account and opportunity data from Salesforce to deliver comprehensive revenue and customer intelligence</span>
+            </div>
+        </div>
+
+        <div class="integration-item">
+            <svg width="48px" height="48px">
+              <use xlink:href="sprite-integrations.svg#Hubspot"></use>
+            </svg>
+            <div class="highlight-text">
+                <h3>Hubspot</h3>
+                <span>Integrate with HubSpot to synchronize account and deals data, providing deeper insights into revenue and customer dynamics</span>
+            </div>
+        </div>
+
+        <div class="integration-item">
+             <img src="Jira.svg" width="48px" height="48px" >
+            <div class="highlight-text">
+                <h3>Jira</h3>
+                <span>From our platform, seamlessly push features to Jira for streamlined project management and tracking</span>
+            </div>
+        </div>
+    </div>
+
+  <div class="request-integration"><h3>Want an integration with another tool? <a href="#contact-form">Request it here </a>and our team will work to make it happen</h3></div>
+       
+</div>
+<!--Integrations section-->
+
+<!--Pricing section-->
+<div id="Pricing" class="pricing">
+    <h1>Pricing</h1>
+    <span>Our pricing model considers a few parameters specific to each client. 
+        For an accurate quote, <br> write to us at <b>contact@pulsegen.io</b>, and we will get in touch with you shortly</span>
+        <button onclick="openHubSpotForm1()" class="get-in-touch">
+            Connect with Us
+        </button>
+</div>
+<!--Pricing section-->
+
+<!--Team section-->
+<div  id="Team" class="card-section">
+    <h1>Team</h1>
+    <div class="card-container">
+
+        <div class="card">
+            <img src="HC.svg" alt="">
+            <h3>Haren Chelle</h3>
+            <h4>Co-founder & CEO</h4>
+            <span>IIT Patna • IIM Bangalore</span>
+            <div class="social-links">
+                <!--<a href=""><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="sprite.svg#hugeicons--new-twitter"></use></svg></a>-->
+                <a href="https://www.linkedin.com/in/harenchelle/" target="_blank"><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="sprite.svg#mdi--linkedin"></use></svg></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="AT.svg" alt="">
+            <h3>Alok Thatikunta</h3>
+            <h4>Co-founder & CTO</h4>
+            <span>IIIT Hyderabad • Stony Brook University</span>
+            <div class="social-links">
+                <!--<a href=""><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="sprite.svg#hugeicons--new-twitter"></use></svg></a>-->
+                <a href="https://www.linkedin.com/in/alokthatikunta/" target="_blank"><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="sprite.svg#mdi--linkedin"></use></svg></a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="VS.svg" alt="">
+            <h3>Vatsal Singhal</h3>
+            <h4>Co-founder & CPO</h4>
+            <span>IIT Patna</span>
+            <div class="social-links">
+                <!--<a href=""><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="sprite.svg#hugeicons--new-twitter"></use></svg></a>-->
+                <a href="https://www.linkedin.com/in/vatsalsin/" target="_blank"><svg class="icon" width="24px" height="24px">
+                    <use xlink:href="sprite.svg#mdi--linkedin"></use></svg></a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--Team section-->
+
+<!--FAQ section-->
+<div  id="FAQs"  class="accordion">
+    <h1>Have Questions?</h1>
+
+  
+    <div class="accordion-item">
+        <div class="accordion-header">Why Pulse? What can I use it for? What is an insight?</div>
+        <div class="accordion-content">
+            <p>Pulse is ideal for SaaS Product Teams seeking to streamline customer feedback and
+market analysis, enabling scalable execution of business objectives.
+              <br> <br>
+Unlike platforms like Mixpanel, which primarily offer insights from platform analytics (e.g.,
+monthly active users, user journey, etc.), Pulse integrates various data sources, including
+support tickets and CRM data, providing comprehensive insights for product decision-making.
+              <br> <br>
+While Mixpanel excels at post-implementation analysis, Pulse empowers Product Managers
+(PMs) to make informed decisions before development. It offers data points such as customer
+demand, cumulative ARR, existing alternative solutions, competitor features, trend analysis, and
+alignment with strategic goals.
+              <br> <br>
+Additionally, Pulse not only assists in backlog prioritization but also fosters innovation by
+inspiring new feature ideas and keeping PMs informed about market trends and competitor
+activities.</p>
+        </div>
+        <img class="accordion-icon"  src="dropdown.svg" alt="dropdown" >
+    </div>
+  
+  
+    <div class="accordion-item">
+        <div class="accordion-header">Which data sources do you support? Do you also provide support for
+integrations?</div>
+        <div class="accordion-content">
+            <p>We offer seamless integration with popular internal platforms such as Zendesk,
+Freshdesk, JIRA, Slack, Salesforce, and more. If customers intend to use custom integrations,
+the platform will be flexible enough to configure them.
+              <br> <br>
+Pulse requires access to diverse data sources, including support system data, to correlate
+bug/feature reports with ROI and CRM data, enabling the identification of customer needs. The
+more the data, the better the insights.
+              <br> <br>
+Additionally, Pulse integrates with external sources to retrieve relevant product trend data from
+sites like G2, Product Hunt, Tech Crunch, etc. We also collaborate with data aggregation
+platforms to deliver insights on market trends and competitor strategies. You can customize
+external source preferences in the platform’s admin panel.</p>
+        </div>
+        <img class="accordion-icon"  src="dropdown.svg" alt="dropdown" >
+    </div>
+
+  
+    <div class="accordion-item">
+        <div class="accordion-header">Which external sources does your platform support, and how does your feed
+differ from my LinkedIn feed, which already provides relevant posts based on my
+interests?</div>
+        <div class="accordion-content">
+            <p>Pulse scours the web daily to identify your closest competitors, ensuring you're always
+up-to-date with industry innovations. With Pulse, you receive comprehensive market research,
+preventing you from discovering competition late in your development process.
+              <br> <br>
+We provide these results as you build your product, saving you time on independent research.
+Pulse not only keeps you informed about new competition but also updates you on existing
+competitors and new features they release. Our external insights cover dynamic market
+changes, customer sentiments, and regulatory threats, enabling informed decision-making. By
+analyzing this data and correlating it with your backlog, Pulse facilitates data-driven
+prioritization. In summary, while you could spend countless hours Googling this information
+yourself, Pulse delivers relevant insights in minutes, tailored to your product line.</p>
+        </div>
+        <img class="accordion-icon"  src="dropdown.svg" alt="dropdown" >
+    </div>
+
+  
+    <div class="accordion-item">
+        <div class="accordion-header">Who are Pulse's competitors?</div>
+        <div class="accordion-content">
+            <p>While existing tools rely solely on internal data sources like customer feedback, Pulse
+recognizes that “innovation requires insights from beyond the company's walls”. By gathering
+information from diverse external sources, Pulse delivers real-time, relevant content to users. Its
+unique value proposition lies in its ability to blend internal and external insights, providing
+valuable data points for more informed product decisions.</p>
+        </div>
+        <img class="accordion-icon"  src="dropdown.svg" alt="dropdown" >
+    </div>
+
+  
+  
+    <div class="accordion-item">
+        <div class="accordion-header">Which function at an organization gets the most value from Pulse?</div>
+        <div class="accordion-content">
+            <p>While our primary focus is assisting Product Managers in building better products through
+insights from both external and internal data, Pulse is also valuable for CXOs and GTM teams
+seeking a deeper understanding of the product landscape. CXOs can utilize Pulse as a quick
+snapshot to gain insights into product features, customer pain points, competitor analysis, and
+market outlook.</p>
+        </div>
+        <img class="accordion-icon"  src="dropdown.svg" alt="dropdown" >
+    </div>
+
+  
+    <div class="accordion-item">
+      <div class="accordion-header">How will Pulse handle multiple SKUs/Product Lines within our company?</div>
+        <div class="accordion-content">
+            <p>Each product line has its own separate workspace. PMs can access specific workspaces
+based on their roles and responsibilities, configured using RBAC within the platform. Each
+workspace contains insights relevant to its respective product line.</p>
+        </div>
+        <img class="accordion-icon"  src="dropdown.svg" alt="dropdown" >
+    </div>
+
+     <div class="accordion-item">
+   <div class="accordion-header">Is Hypothix just a co-pilot? Or Is it just a wrapper on top of GPT?</div>
+        <div class="accordion-content">
+            <p>Hypothix serves as a "What-If" playground for Product Managers, allowing them to
+simulate feature development's potential impact without actual implementation. It's a data-driven
+simulator that predicts various scenarios based on specified parameters, providing probabilistic
+models and supporting data. This is particularly valuable for companies managing numerous
+feature requests with limited engineering resources. Internally, Hypothix employs pre-trained
+prompts to generate meaningful responses, though ongoing research efforts aim to enhance its
+capabilities in this area.</p>
+        </div>
+        <img class="accordion-icon"  src="dropdown.svg" alt="dropdown" >
+    </div>
+
+  
+</div>
+<!--FAQ section-->
+  
+<!--Contact section-->
+<div id="contact-form" class="contact">
+   <h1>Contact Us</h1>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "46705993",
+    formId: "3b0bd5aa-2d2e-48b3-b816-45396e963258"
+  });
+</script> 
+</div>
+<!--Contact section-->
+
+</div>
+
+<!--Footer-->
+<div class="footer">
+    <div class="icon-and-address">
+        <div class="logo-holder">
+            <a href="#pulse"><img src="logo with text (blue).png" width="114px" width="42px" alt="pulse-logo"></a>
+            </div>
+            <span>Hyderabad, India <br>
+            <u><a href="./privacy-policy.html" target="_blank">Privacy Policy</a></u> <br>
+            &copy; 2024 Pulsegen Technologies Pvt Ltd. All rights reserved.</span>
+    </div>
+    <div class="social-media">
+        <a href=""><svg class="icon-footer" width="40px" height="40px">
+            <use xlink:href="sprite.svg#hugeicons--new-twitter"></use></svg></a>
+        <a href="https://www.linkedin.com/company/pulsegenio/" target="_blank"><svg class="icon-footer" width="40px" height="40px">
+            <use xlink:href="sprite.svg#mdi--linkedin"></use></svg></a>
+    </div>
+    <button onclick="openHubSpotForm1()" class="get-in-touch">
+        Connect with Us
+    </button>
+</div>
+<!--Footer-->
