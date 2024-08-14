@@ -12,6 +12,26 @@ body {
     scroll-behavior: smooth;
 }
 /*privacy policy*/
+.logo-pp{
+    width: 100;
+    height: auto;
+    position: absolute;
+    top: 40;
+    left: 40;
+  }
+
+  @media (max-width:780px){
+    .logo-pp{
+        width: 100;
+        height: auto;
+        position: absolute;
+        top: 20;
+        right: 28;
+        left: auto;
+
+    }
+  }
+
 .privacy-policy{
     display: flex;
     flex-direction: column;
@@ -654,6 +674,7 @@ width: 100%;
     .pricing > h1,
     .card-section > h1,
     .accordion > h1,
+    .pyramid > h1,
     .contact > h1{
         font-size: 32px;
         margin-bottom: 20px;

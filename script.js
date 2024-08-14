@@ -20,16 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    const r = new rive.Rive({
-        src: "pulse-text.riv",
-        canvas: document.getElementById("pulse"),
-        artboard: "text effect pulse",
-        animations: ("001"),
-        autoplay: true,
-        onLoad: () => {
-            r.resizeDrawingSurfaceToCanvas();
-          },
-    });
 
     const b = new rive.Rive({
         src: "why-pulse.riv",
