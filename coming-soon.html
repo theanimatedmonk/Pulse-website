@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pluse website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="coming-soon.css">
+  <script src="https://cdn.jsdelivr.net/npm/@rive-app/canvas@latest/rive.js"></script>
+  
+</head>
+
+<body>
+    <canvas id="effect"></canvas>
+<div class="Intro">
+    <img src="Images/pulse coming soon.svg" alt="">
+    <h1>The Future of AI-Powered Decision Intelligence</h1>
+    <p>Pulse is an AI-powered platform that transforms SaaS product management with deep insights, 
+        predictive analytics, and strategic recommendations to keep you ahead in the market. <br><br>
+        We’re currently fine-tuning Pulse to ensure it meets the highest standards of excellence. </p>
+</div>
+<div class="Coming-soon">
+    <canvas id="experiment" width="40px" height="40px" style="width: 40px; height: 40px; border-radius: 4px;"></canvas>
+    <script>
+         const r = new rive.Rive({
+        src: "coming-soon.riv",
+        canvas: document.getElementById("experiment"),
+        artboard: "Loading",
+        animations: ("Loading"),
+        autoplay: true,
+        onLoad: () => {
+            r.resizeDrawingSurfaceToCanvas();
+          },
+    });
+
+    const b = new rive.Rive({
+        src: "coming-soon.riv",
+        canvas: document.getElementById("effect"),
+        artboard: "Effect",
+        animations: ("Bg-effect"),
+        autoplay: true,
+        onLoad: () => {
+            r.resizeDrawingSurfaceToCanvas();
+          },
+    });
+
+    </script>
+    <h2>Stay tuned for our official launch!</h2>
+    <p>If you have any questions or want to learn more, feel free to reach out to us at <a href="mailto:contact@pulsegen.io">contact@pulsegen.io</a></p>
+</div>
+    
+</body>
