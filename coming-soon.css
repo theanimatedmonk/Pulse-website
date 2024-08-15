@@ -38,8 +38,14 @@ p{
     line-height: 150%;
     margin: 0px;
 }
+
 a{
-    color: #367fff;
+    color: #2170F4;
+    background-color: #DCE9FF;
+    padding: 12px 20px;
+    border: solid 1px #C5DAFF;
+    text-decoration: none;
+    border-radius: 40px;
 }
 
 .Intro{
